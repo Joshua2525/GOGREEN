@@ -306,6 +306,9 @@ span {
     font-weight: 400;
     color: white;
   }
+  .shop:hover {
+    background: darkgray;
+  }
 }
 
 @media screen and (max-width: 500px) {
