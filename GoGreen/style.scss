@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800&family=Raleway:wght@300;700&family=Roboto:ital,wght@0,300;0,500;1,300&family=Spartan:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,800&family=Raleway:wght@300;700&family=Roboto:ital,wght@0,300;0,500;1,300&family=Spartan:wght@500&display=swap');
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(5, 66, 0, 1); 
+    border-radius: 10px;
+
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        box-shadow: inset 0 0 2000px #4ee42897;
+        border-radius: 10px;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        box-shadow: inset 0 0 2000px rgba(5, 66, 0, 1);
+        filter: blur(10px);
+        transition: all .50s;
+    }
+
+    
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: rgba(255, 255, 255, 1);
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden !important;
+}
+
+
+@import "scss/navbar";
+@import "scss/home-section";
+@import "scss/about";
+@import 'scss/buy-section';
+@import "scss/contact-us";
+@import "scss/team";
+@import "scss/footer";
+@import "scss/article-header";
+@import "scss/articles-plants";
